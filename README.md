@@ -1,5 +1,6 @@
 # PixelOS-Volume-Panel-Toggle
 PixelOS Volume Panel Left/Right Toggle - Ports volume panel position toggle from LineageOS to PixelOS
+```bash
 cd ~/pos
 
 cat > volume_panel_patcher.py <<'PY'
@@ -173,3 +174,4 @@ PY
 
 chmod +x volume_panel_patcher.py
 python3 volume_panel_patcher.py
+```
